@@ -3,25 +3,40 @@ body {
   font-weight: lighter;
   font-style: italic;
   color: midnightblue;
-  font-family:Cambria,Georgia,"Book Antiqua", serif
-}
-
-h2 {
-  color: indigo;
+  font-family:Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  background-color: lavender;
 }
 
 h1 {
+  font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+
   color: lightsteelblue;
 }
 
 h2 {
   background-color: honeydew;
   width: fit-content;
+  font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+  color: indigo;
+}
+
+h3 {
+  color: darkslategray;
+  font-weight: bold;
+  font-family:Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
 
 a:link {
-  color: darkgreen;
+  color: red;
+}
+
+a:visited {
+  color: green;
 }
 
 a:hover {
-  color: darkgreen;
+  color: hotpink;
 }
+
+a:active {
+  color: blue;
