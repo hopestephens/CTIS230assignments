@@ -1,5 +1,9 @@
 body {
+  font-size:1.2em;
+  font-weight: lighter;
+  font-style: italic;
   color: midnightblue;
+  font-family:Cambria,Georgia,"Book Antiqua", serif
 }
 
 h2 {
@@ -8,4 +12,16 @@ h2 {
 
 h1 {
   color: lightsteelblue;
+}
+
+h2 {
+  background-color: honeydew;
+  width: fit-content;
+
+a:link {
+  color: darkgreen;
+}
+
+a:hover {
+  color: darkgreen;
 }
