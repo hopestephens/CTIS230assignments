@@ -10,7 +10,7 @@ body {
 h1 {
   font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
 
-  color: lightsteelblue;
+
 }
 
 h2 {
@@ -30,6 +30,10 @@ a:link {
   color: red;
 }
 
+p.bold {
+  font-weight: bold;
+}
+
 a:visited {
   color: green;
 }
@@ -38,5 +42,23 @@ a:hover {
   color: hotpink;
 }
 
+h1, h2, p {
+  text-align: center;
+  color: darkslategray;
+}
+
+p strong {
+  color: cornflowerblue;
+}
+
 a:active {
   color: blue;
+}
+
+img#page1img {
+  width: 25%
+}
+
+img#page3img {
+  width: 25%
+}
