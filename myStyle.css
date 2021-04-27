@@ -3,26 +3,26 @@ body {
   font-weight: lighter;
   font-style: italic;
   color: midnightblue;
-  font-family:Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  font-family:Century "Gothic,CenturyGothic,AppleGothic,sans-serif";
   background-color: lavender;
 }
 
 h1 {
-  font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+  font-family: "Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif";
 
 
 }
 
 h2 {
   background-color: honeydew;
-  font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+  font-family: "Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif";
   color: indigo;
 }
 
 h3 {
   color: darkslategray;
   font-weight: bold;
-  font-family:Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  font-family: "Century Gothic,CenturyGothic,AppleGothic,sans-serif";
 }
 
 a:link {
@@ -55,7 +55,8 @@ a:active {
 }
 
 img#page1img {
-  width: 25%
+  width: 50%
+  text-align: right;
 }
 
 img#page3img {
@@ -102,21 +103,24 @@ div.flexible {
 
 .footer {
   background-color: #f1f1f1;
+  position: fixed;
   padding: 10px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   text-align: center;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+
 .column {
   float: left;
+  width: 33.33%;
   padding: 10px;
-}
-
-.column.side {
-  width: 25%;
-}
-
-.column.middle {
-  width: 50%;
+  height: 300px;
 }
 
 .row:after {
