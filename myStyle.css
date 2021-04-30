@@ -111,26 +111,38 @@ div.flexible {
   text-align: center;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-
 .column {
   float: left;
-  width: 33.33%;
-  padding: 10px;
-  height: 300px;
+  padding: 20px;
 }
 
+.left, .right {
+  width: 25%;
+}
+
+middle {
+  width: 50%;
+}
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-@media screen and (max-width: 600px) {
-  .column.side, .column.middle {
+@media screen and (max-width:800px) {
+  .column {
     width: 100%;
   }
+
+
+
+  img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }

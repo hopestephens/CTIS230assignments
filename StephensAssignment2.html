@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <div class="header">
 <link rel="stylesheet" href="myStyle.css">
 <meta charset="UTF-8">
@@ -29,15 +30,51 @@ a:hover, a:active {
 
 
 <body>
+  <style>
+  @media screen and (max-width:700px) {
+    .left, .right, .middle {
+      width: 100%;
+    }
+  }
+
+
+
+  * {
+    box-sizing: border-box;
+  }
+  .column {
+    float: left;
+    padding: 10px;
+
+  }
+
+  .left, .right {
+    width: 25%;
+  }
+
+  .middle {
+    width: 50%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+    </style>
+
 <div class="row">
-  <div class="column">
+  <div class="column left">
     <h2>Information</h2>
     <p>Hope Stephens</p>
     <p>AP English Language and Composition</p>
-    <p>5 December 2019</p></h2>
-  </div>
+    <p>5 December 2019</p>
+    <a target="_blank" href="images/space2.jpeg">
+  <img src="images/space2.jpeg" alt="space2" style="width:150px">
+</a>
+</a>
+</div>
 
-  <div class="column">
+  <div class="column middle">
     <h2>Space Exploration and the United States</h2>
     <p><a href="StephensAssignment3-1.html">Spanish</a></p>
   	<p><a href="StephensAssignment3.html">Resume</a></p>
@@ -48,10 +85,12 @@ a:hover, a:active {
   	<p>Space is the final frontier. It is the obligation of mankind to venture forth and explore it- if not us, then who? The lack of enthusiasm for space exploration is rooted in the fear of the unknown. For centuries it has been this way, and for centuries the human nature to seek knowledge has overcome that fear. When the first humans migrated from Africa to other areas of the world, they were driven by their innate curiosity and thirst for adventure. We have roamed the world around us horizontally, and now the only way to go is up. It is no use to hold back funding for space exploration when exploration is inevitable.</p>
   </div>
 
-  <div class="column">
+
+  <div class="column right">
     <h2>Image</h2>
-    <img id="page1img" src="images/space.jpeg" width=300 alt="Courtesy of Creative Commons">
+      <img src="images/space.jpeg" alt="space" style="width:300px">
   </div>
+</div>
 
 
   <div class="footer">
